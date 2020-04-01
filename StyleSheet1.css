@@ -1,0 +1,216 @@
+﻿body {
+    font: 8.25pt Microsoft Sans Serif;
+	margin: 0 0 0 0;
+	background-color:#97CBEB;
+	background-image: url(./img/background-epicor.jpg);
+	background-repeat: repeat-x;
+}
+
+BODY.loading
+{
+	background-color:#ffffff;
+	display:none;
+	background-image: none;
+}
+
+BODY #header
+{
+	background-image: url(./img/background-blue.jpg);
+	background-repeat: repeat-x;
+}
+
+.modalProgressRedBackground
+{
+	background: #CCCCCC;
+	filter: alpha(opacity=60);
+	opacity: 0.7;
+}
+
+.wrap
+{
+	margin:0px auto;
+	padding:0px;
+	/*width:997px;*/
+    width:98%;
+	height:auto;
+	background:#fff;	
+}
+
+.header
+{
+	margin:0px;
+	padding:0px;
+	/*height:363px;*/
+	height:auto;
+}
+
+.topheader
+{
+	margin:10px auto;
+	padding:0px;
+	/*height:72px;*/
+    height:10px;
+	background:#fff;
+}
+
+.container
+{
+	margin:0px auto 0px auto;
+	padding:3px 0px 5px 0px;
+	min-height:495px;
+	/*width:965px;*/
+    width:98%;
+	background:#fff;
+}
+
+.entry
+{
+	padding:5px 10px 0px 10px !important;
+}
+
+.footer
+{
+	margin:0px auto 0px auto;
+	padding:1px 1px 1px 0px;
+	text-align:right;
+	height:20px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background:#333 url(../images/footer.png) no-repeat 0 0;
+	position:relative;
+	bottom:0px;
+	/*width:987px;*/
+    width:98%;
+}
+
+input.formbtnfield
+{
+	margin:0px;
+	padding:2px 4px 2px 4px !important;
+	color:#ffffff;
+	background-image: url(../images/navigation_bg.png) !important;
+	background-color:#007ec5 !important;
+	background-repeat:repeat-x;
+	background-position:0 0;
+    border: 1px solid #005d91;
+    font-weight:bold;
+    font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+    font-size:12px;
+    line-height:15px;
+    
+}
+
+ .scrollinghm
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 90%;
+    height: 300px;
+}
+  .scrollinghmnew
+{
+    overflow-x: hidden;
+    overflow-y: auto;    
+    width: 40%;
+    height: 510px;
+}
+
+/********************* Form Css *******************/
+
+.formtbl
+{
+	margin:0px;
+	color:#333;
+	font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif !important;
+}
+
+
+table.formtbl 
+{
+	margin:8px 0px 0px 0px;
+	padding:1px;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+	color:#646363;
+	border-top:5px solid #3784b7;
+}
+
+
+.formtbl tr
+{
+	margin:0px;
+	padding:0px;
+}
+
+
+.formtbl td
+{
+	margin:0px;
+	padding:0px 0px 0px 0px;
+	border-right:0px solid #fff;
+	border-bottom:0px solid #fff;
+	line-height:20px;
+	vertical-align:middle !important;
+}
+
+
+/*.formtbl2 td
+{
+	margin:0px;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
+	line-height:42px;
+	vertical-align:middle !important;
+}*/
+/************************************************/
+
+.formtxtfieldGridCal
+{
+	
+	width:60px;
+	margin:5px 0px 0px 0px;
+	padding:3px;
+	border:1px solid #dddddd;
+	background-image: url('../images/txtfield_bg.png') !important;
+	background-color:#fbfbfb !important;
+	background-repeat:repeat-x;
+	background-position:0 0;
+	font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+	color:#646363;
+}
+
+.clstd
+{
+    /* background: url(../images/new-bg2.gif) repeat scroll 0 0 transparent; */
+	background:#f5f6f7;
+}
+.clstdnext
+{
+    /* background:#FFF url(../images/pattern.png) repeat scroll 0 0 transparent; */
+	background-color:#f5f6f7;
+}
+.clstdnexthighlight
+{
+  /*  background: url(../images/pattern3.png) repeat scroll 0 0 transparent; */
+	background-color:#edf3fb;
+}
+
+.errorMsg
+{
+    padding:5px 5px 5px 0px;  
+    color:Red;
+}
+
+/*******************************************************************************/
+
+/* Start Pattern */
+
+.grdth,th {   
+     background-color: #ACDCF7;
+}
+
+.grdth,tr {    
+	background:#f5f6f7;  
+}
